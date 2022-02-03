@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Card from "./components/Card/Card";
 import { Container } from "./App.styles";
 
 import { createBoard } from "./setup";
