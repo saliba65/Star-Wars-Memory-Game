@@ -1,20 +1,20 @@
 import React, { useEffect, useState } from "react";
-import Card from "./components/Card/Card";
+import Card from "../components/Card/Card";
 import {
   Container,
   LogoContainer,
   CardsContainer,
   Logo,
   ContainerButton,
-  Button,
+  Button
 } from "./App.styles";
-import logo from "./img/logo.png";
-import yoda from "./img/yoda.png";
+import logo from "../assets/img/logo.png";
+import yoda from "../assets/img/yoda.png";
 
-import { createBoard } from "./setup";
-import { shuffleArray } from "./utils";
+import { createBoard } from "../Utils/setup";
+import { shuffleArray } from "../Utils/utils";
 
-import { CardType } from "./setup";
+import { CardType } from "../Utils/setup";
 
 const App = () => {
   const timeout = 1000;
